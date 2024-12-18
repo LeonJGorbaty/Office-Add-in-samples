@@ -20,6 +20,7 @@
     <DisplayName DefaultValue="Blazor add-in" />
     <Description DefaultValue="Office Add-in using Blazor."/>
     <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
+    <!-- IMPORTANT!  Since the IconUrl is used on installation screes, ~remoteAppUrl does not work here, and office-addin-manifest validate returns some "malformed url error" -->
     <IconUrl DefaultValue="~remoteAppUrl/Images/Button32x32.png" />
 
     <SupportUrl DefaultValue="https://www.contoso.com" />
